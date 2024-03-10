@@ -1,0 +1,19 @@
+package com.regex;
+
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class RegexDemo1 {
+	public static void main(String[] args) {
+		
+		Pattern pattern = Pattern.compile(".s");//represents a single character
+		Matcher matcher=pattern.matcher("as");
+		boolean b1=matcher.matches();
+		System.out.println(b);
+		
+		boolean b2=Pattern.compile(".a").matcher("ba").matches();
+		System.out.println(b2);
+	}
+	
+	
+}

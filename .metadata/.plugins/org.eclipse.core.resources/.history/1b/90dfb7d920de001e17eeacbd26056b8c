@@ -1,0 +1,12 @@
+package com.java.string;
+
+public class RemoveSpacesInString6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s="My name is   ayyappa";
+		String removed_Spaces=s.replaceAll("\\s+", "");
+		System.out.println(removed_Spaces);
+	}
+
+}
