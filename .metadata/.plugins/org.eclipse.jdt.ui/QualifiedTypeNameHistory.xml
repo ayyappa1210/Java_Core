@@ -4,4 +4,8 @@
     <fullyQualifiedTypeName name="java.util.regex.Pattern"/>
     <fullyQualifiedTypeName name="java.lang.StringBuffer"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="com.java.thread.MyThread_2"/>
+    <fullyQualifiedTypeName name="com.java.thread.MyThreadx"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
 </qualifiedTypeNameHistroy>
