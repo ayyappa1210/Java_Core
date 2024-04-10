@@ -8,6 +8,7 @@ public class ArrayDemo1 {
 		int[] arr;
 		// instantiating an array
 		arr = new int[5];
+		System.out.println(arr.toString());
 
 		// printing array elements
 		// using for loop

@@ -15,9 +15,13 @@ public class HashMapExample {
 		        map.put("Alice", 25);
 		        map.put("Bob", 30);
 		        map.put("Charlie", 35);
+		        map.put(null, 50);
+		        map.put(null, 50);//only one null key will be allowed
+		        map.put("xxx", null);
+		        map.put("yyy", null);
 
 		        // Display the map
-		        System.out.println("HashMap: " + map);
+		        System.out.println("HashMap: " + map.toString());
 
 		        // Get value associated with a key
 		        int ageOfBob = map.get("Bob");

@@ -27,8 +27,17 @@ public class ArrayDemo4 {
 		// TODO Auto-generated method stub
 		Student s1 = new Student(101, "Ayyappa", "ayyappa7434@gmail.com", 24);
 		Student s2 = new Student(102, "Teja_Ayyappa", "teja7434@gmail.com", 23);
+		Student s3 =new Student(103,"yalamandha","yalamandha@gmail.com",25);
 		System.out.println(s1.toString());
 		System.out.println(s2);
+		System.out.println(s3);
+		
+		Student[] students = {s1,s2,s3};
+		System.out.println(students);
+		
+		for(Student s:students) {
+			System.out.println(s);
+		}
 
 	}
 
